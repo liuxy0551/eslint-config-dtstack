@@ -1,0 +1,32 @@
+{
+  "name": "@liuxy0551/eslint-config-liuxy0551",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean -y && rm -rf node_modules",
+    "release": "lerna publish --conventional-commits -y"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuxy0551/eslint-config-liuxy0551.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuxy0551/eslint-config-liuxy0551/issues"
+  },
+  "homepage": "https://github.com/liuxy0551/eslint-config-liuxy0551#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+  }
+}
