@@ -1,0 +1,25 @@
+{
+  "name": "@liuxy0551/eslint-config-liuxy0551-typescript",
+  "version": "0.0.5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@liuxy0551/eslint-config-liuxy0551-basic": "^0.0.5",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
+    "eslint": "^8.11.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+  },
+  "gitHead": "c76a7045f9eef479d75bd4da801a047429834679"
+}

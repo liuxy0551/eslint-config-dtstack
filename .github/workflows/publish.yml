@@ -1,0 +1,33 @@
+name: npm publish
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  publish-to-npm:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 12
+
+      - name: install dependency
+        run: npm run bootstrap
+
+      - name: npm registry init
+        run: |
+          npm config set registry https://registry.npmjs.org/
+          npm config set //registry.npmjs.org/:_authToken ${{ secrets.NPM_TOKEN }}
+          npm whoami
+      
+      - name: git init
+        run: |
+          git config user.name "liuxy0551"
+          git config user.email "liuxy0551@qq.com"
+
+      - name: publish packages
+        run: npm run release

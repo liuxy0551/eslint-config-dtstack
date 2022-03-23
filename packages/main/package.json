@@ -1,0 +1,23 @@
+{
+  "name": "@liuxy0551/eslint-config-liuxy0551",
+  "version": "0.0.5",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@liuxy0551/eslint-config-liuxy0551-react": "^0.0.5",
+    "eslint": "^8.11.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": "^12.22.0 || ^14.17.0 || >=16.0.0"
+  },
+  "gitHead": "c76a7045f9eef479d75bd4da801a047429834679"
+}
