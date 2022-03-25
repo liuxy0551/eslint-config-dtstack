@@ -1,6 +1,6 @@
 {
   "name": "@liuxy0551/eslint-config-liuxy0551",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,7 +10,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@liuxy0551/eslint-config-liuxy0551-react": "^0.0.5",
+    "@liuxy0551/eslint-config-liuxy0551-react": "^0.0.6",
     "eslint": "^8.11.0"
   },
   "publishConfig": {
