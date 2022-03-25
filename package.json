@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/liuxy0551/eslint-config-liuxy0551.git"
   },
-  "keywords": [],
+  "keywords": ["lerna", "eslint"],
   "author": "",
   "license": "MIT",
   "bugs": {
